@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rizwan- Home</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <script src="js/script.js"></script>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="images/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="images/favicon-16x16.png"
+    />
+  </head>
+  <body>
+    <!-- PRELOADER -->
+    <div id="preloader">
+      <div id="loader" class="dots-fade">
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+    </div>
+    <!-- END PRELOADER -->
+    <!--HEADER-->
+    <header class="header">
+      <nav class="navbar">
+        <ul class="nav-links">
+          <li class="nav-link left">
+            <a href="index.html"><img src="images/logo1.png" alt="" /></a>
+          </li>
+          <li class="nav-link center"><a href="about.html">About</a></li>
+          <li class="nav-link center">
+            <a href="expertises.html">Expertises</a>
+          </li>
+          <li class="nav-link center"><a href="blogs.html">Blogs</a></li>
+          <li class="nav-link center">
+            <a href="media.html">Press and Media</a>
+          </li>
+          <li class="nav-link right">
+            <button><a href="contact-us.html">Contact-Us</a></button>
+          </li>
+        </ul>
+        <div class="nav-toggle" id="nav-toggle">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </nav>
+    </header>
+    <!--END HEADER-->
+    <!--Blogs Container-->
+    <div class="page_header">
+      <h1><span>Contact Me</span> Ask Me <em>Anything</em></h1>
+    </div>
+    <div class="cnt_container">
+        <h2>Contact Us</h2>
+        <form action="send_mail.php  method="POST">
+            <label for="name">Your Name</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Your Email</label>
+            <input type="email" id="email" name="email" required>
+
+
+            <label for="message">Your Message</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+
+            <button type="submit" name="send">Send Message</button>
+        </form>
+    </div>
+
+    <!--End Blogs Container-->
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="footer-content">
+        <!-- Contact Information Section -->
+        <div class="footer-section contact-info">
+          <h2>Contact Us</h2>
+          <p>
+            1234 Address St, City,Country<br />
+            Phone: +123 456 7890<br />
+            Email: contact@example.com
+          </p>
+        </div>
+        <!--End Contact Information Section -->
+        <!-- Map Section -->
+        <div class="footer-section map">
+          <h2>Find Us</h2>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=YOUR_MAP_EMBED_CODE"
+            width="300"
+            height="200"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+          ></iframe>
+        </div>
+        <!--End Map Section -->
+        <!--FOLLOW US-->
+        <div class="footer-section social-media">
+          <h2>Follow Us</h2>
+          <div class="social-icons">
+            <a
+              href="https://instagram.com/developer"
+              target="_blank"
+              class="social-icon"
+              ><i class="fab fa-instagram"></i
+            ></a>
+            <a
+              href="https://twitter.com/developer"
+              target="_blank"
+              class="social-icon"
+              ><i class="fab fa-twitter"></i
+            ></a>
+            <a
+              href="https://facebook.com/developer"
+              target="_blank"
+              class="social-icon"
+              ><i class="fab fa-facebook-f"></i
+            ></a>
+            <!-- Add more social media links and icons here -->
+          </div>
+        </div>
+        <!--End Follows US-->
+        <!-- Quick Links Section -->
+        <div class="footer-section quick-links">
+          <h2>Quick Links</h2>
+          <p><a href="index.html">Home</a></p>
+          <p><a href="about.html">About</a></p>
+          <p><a href="expertises.html">Expertises</a></p>
+          <p><a href="blogs.html">Blogs</a></p>
+          <p><a href="media.html">Press and Media</a></p>
+          <p><a href="contact-us.html">Contact Us</a></p>
+        </div>
+        <!--End Quick Links Section -->
+        <!-- Social Media Section -->
+        <div class="footer-section developer">
+          <h2>Developer</h2>
+          <p>
+            Developed by
+            <a href="https://instagram.com/developer" target="_blank"
+              >Developer Name</a
+            >
+          </p>
+          <div class="social-icons">
+            <a
+              href="https://instagram.com/developer"
+              target="_blank"
+              class="social-icon"
+              ><i class="fab fa-instagram"></i
+            ></a>
+            <a
+              href="https://twitter.com/developer"
+              target="_blank"
+              class="social-icon"
+              ><i class="fab fa-twitter"></i
+            ></a>
+            <a
+              href="https://facebook.com/developer"
+              target="_blank"
+              class="social-icon"
+              ><i class="fab fa-facebook-f"></i
+            ></a>
+          </div>
+        </div>
+        <!--End Social Media Section -->
+      </div>
+    </footer>
+    <!-- END FOOTER -->
+  </body>
+</html>
